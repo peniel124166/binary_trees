@@ -90,5 +90,6 @@ char *convert(unsigned long int num, int base, int lowercase);
 bst_t *swap(bst_t *a, bst_t *b);
 
 size_t _binary_tree_height(const binary_tree_t *tree);
+int *heap_to_sorted_array(heap_t *heap, size_t *size);
 
 #endif /* BINARY_TREES_H */
